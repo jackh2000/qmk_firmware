@@ -22,6 +22,9 @@
 /* COL2ROW or ROW2COL */
 #define DIODE_DEFINITION = COL2ROW
 
+/* set 0 if debouncing isn't needed */
+#define DEBOUNCE 5
+
 /* rotary encoder pins */
 #define ENCODERS_PAD_A { B1 }
 #define ENCODERS_PAD_B { B2 }
